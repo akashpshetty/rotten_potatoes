@@ -53,5 +53,8 @@ module Rottenpotatoes
 
     # Assume all model attributes are safe by default
     config.active_record.whitelist_attributes = false
+
+    # Added by Akash
+    config.assets.initialize_on_precompile = false
   end
 end
